@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Jabidabdul/Ekart_App.github.io.git/static/css/main.e80c3cd6.chunk.css",
+    "main.js": "/Jabidabdul/Ekart_App.github.io.git/static/js/main.bce1f559.chunk.js",
+    "main.js.map": "/Jabidabdul/Ekart_App.github.io.git/static/js/main.bce1f559.chunk.js.map",
+    "runtime-main.js": "/Jabidabdul/Ekart_App.github.io.git/static/js/runtime-main.8adb2094.js",
+    "runtime-main.js.map": "/Jabidabdul/Ekart_App.github.io.git/static/js/runtime-main.8adb2094.js.map",
+    "static/js/2.d33c37bd.chunk.js": "/Jabidabdul/Ekart_App.github.io.git/static/js/2.d33c37bd.chunk.js",
+    "static/js/2.d33c37bd.chunk.js.map": "/Jabidabdul/Ekart_App.github.io.git/static/js/2.d33c37bd.chunk.js.map",
+    "index.html": "/Jabidabdul/Ekart_App.github.io.git/index.html",
+    "static/css/main.e80c3cd6.chunk.css.map": "/Jabidabdul/Ekart_App.github.io.git/static/css/main.e80c3cd6.chunk.css.map",
+    "static/js/2.d33c37bd.chunk.js.LICENSE.txt": "/Jabidabdul/Ekart_App.github.io.git/static/js/2.d33c37bd.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/Jabidabdul/Ekart_App.github.io.git/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8adb2094.js",
+    "static/js/2.d33c37bd.chunk.js",
+    "static/css/main.e80c3cd6.chunk.css",
+    "static/js/main.bce1f559.chunk.js"
+  ]
+}
