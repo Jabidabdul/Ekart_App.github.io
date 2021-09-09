@@ -1,0 +1,98 @@
+.each-item {
+  cursor: pointer;
+  overflow: none;
+  height: 320px;
+  width: 200px;
+  box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.each-item .img-wrapper img {
+  background: rgb(255, 255, 255) none repeat scroll 0% 0%;
+  object-fit: scale-down;
+  margin-top: 20px;
+  height: 150px;
+  width: 200px;
+  display: block;
+}
+
+.each-item .img-wrapper {
+  height: auto;
+  overflow: hidden;
+}
+
+.each-item .img-wrapper img {
+  transition: transform 1s ease;
+}
+
+.each-item .img-wrapper:hover img {
+  transform: scale(1.5);
+  overflow: auto;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top:10px;
+  /* margin-bottom: 10px; */
+}
+
+.content-wrapper .brand-name {
+  font-size: 12px;
+  /* font-weight: 500; */
+  margin: 0px;
+}
+
+.content-wrapper .brand-desc {
+  font-size: 12px;
+  font-weight: 600;
+  margin: 0px;
+}
+
+.content-wrapper .b-d-price {
+  font-size: 13px;
+  font-weight: 500;
+  margin: 0px;
+  padding-top:0px;
+}
+
+.content-wrapper .b-price {
+  font-size: 13px;
+  opacity: 0.5;
+  padding-top:0px;
+  margin-left: 10px;
+  padding-inline-end: 5px;
+  font-weight: 400;
+  text-decoration: line-through;
+}
+
+.content-wrapper .b-discount {
+  color: red;
+  margin: 0px;
+  opacity: 0.5;
+  font-size: 12px;
+  padding-top:0px;
+  /* margin-left: 5px; */
+  font-weight: 400;
+}
+
+.content-wrapper .add-to-cart-btn {
+  border-radius: 0;
+  padding: 12px 15px;
+  margin: 0px;
+  font-weight: 500;
+  cursor: pointer;
+  background-color: #ff3e6c;
+  border: 1px solid #ff3e6c;
+  color: #fff;
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+.content-wrapper .add-to-cart-btn.disabled {
+  pointer-events: none;
+  background-color: lightgrey;
+  border: 1px solid lightgrey;
+  cursor: none;
+}

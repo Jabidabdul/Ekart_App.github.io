@@ -1,0 +1,27 @@
+.cart-wrapper {
+    /* margin-right: 15px; */
+    /* position: relative; */
+    display: flex;
+    /* background-color: antiquewhite; */
+    /* width: 100vh; */
+    justify-content:right;
+  }
+  
+  .cart-wrapper button {
+    white-space: nowrap;
+    text-align: center;
+    line-height: 18px;
+    padding: 0 6px;
+    height: 35px;
+    background: #ff3f6c;
+    position: relative;
+    left:300px;
+    border-radius: 50%;
+    font-size: 12px;
+    color: var(--font-color);
+    /* right: -10px;
+    top: -10px; */
+    font-weight: 700;
+    cursor: pointer;
+  }
+  

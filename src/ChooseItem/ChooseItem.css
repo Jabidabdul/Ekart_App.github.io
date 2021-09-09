@@ -1,0 +1,102 @@
+.item {
+    /* cursor: pointer; */
+    /* overflow: none; */
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* box-sizing: border-box; */
+    /* background-color: aquamarine; */
+    position:fixed;
+    /* box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.3); */
+  }
+  
+  .img-wrapper1{
+      margin-top:0px;
+    /* background: rgb(61, 23, 23) none repeat scroll 0% 0%; */
+    object-fit: scale-down;
+    /* margin-top: 20px; */
+    /* margin-left:20px; */
+    height: 410px;
+    width: 320px;
+    /* display: block; */
+  }
+  .img-wrapper1 img{
+      height: 400px;
+      width: 300px;
+  }
+  .content-wrapper1 {
+    margin-top: 20px;
+    margin-left:20px;
+      text-align: center;
+      height: 410px;
+      width: 320px;
+    display: flex;
+    flex-direction: column;
+    margin-top:10px;
+    /* background-color: blue; */
+    /* margin-bottom: 10px; */
+  }
+  
+  .content-wrapper1 .brand-name1 {
+    font-size: 12px;
+    /* font-weight: 500; */
+    margin: 50px;
+  }
+  
+  .content-wrapper1 .brand-desc1 {
+    font-size: 12px;
+    font-weight: 600;
+    margin: 0px;
+  }
+  
+  .content-wrapper1 .b-d-price1 {
+    font-size: 13px;
+    font-weight: 500;
+    margin: 0px;
+    padding-top:0px;
+  }
+  
+  .content-wrapper1 .b-price1 {
+    font-size: 13px;
+    opacity: 0.5;
+    padding-top:0px;
+    margin-left: 10px;
+    padding-inline-end: 5px;
+    font-weight: 400;
+    text-decoration: line-through;
+  }
+  
+  .content-wrapper1 .b-discount1 {
+    color: red;
+    margin: 0px;
+    opacity: 0.5;
+    font-size: 12px;
+    padding-top:0px;
+    /* margin-left: 5px; */
+    font-weight: 400;
+  }
+  
+  .content-wrapper1 .add-to-cart-btn1 {
+    border-radius: 0;
+    padding: 12px 15px;
+    margin: 0px;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: #ff3e6c;
+    border: 1px solid #ff3e6c;
+    color: #fff;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+  }
+  
+  .content-wrapper1 .add-to-cart-btn.disabled {
+    pointer-events: none;
+    background-color: lightgrey;
+    border: 1px solid lightgrey;
+    cursor: none;
+  }
+  
