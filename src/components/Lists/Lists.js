@@ -3,7 +3,7 @@ import React from "react";
 import Product from "../Product/Product";
 import "./Lists.css"
 import ChooseItem from "../../ChooseItem/ChooseItem"
-function List() {
+function List({ setAdd }) {
   let [data, setData] = React.useState(null);
   let [choose, setChoose] = React.useState(null);
   React.useEffect(() => {
@@ -22,10 +22,10 @@ function List() {
       {data ? (!choose) ? (
         data.map((eachItem, index) => {
           // { console.log(data) }
-          return <Product setItem={setChoose} item={eachItem} index={index} data={data} />;
+          return <Product setAdd={setAdd} setItem={setChoose} item={eachItem} index={index} data={data} />;
         })
       ) : (
-        <ChooseItem items={choose} />
+        <ChooseItem setAdd={setAdd} items={choose} />
       ) : <div>Loading</div>
       }
     </div>
