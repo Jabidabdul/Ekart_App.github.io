@@ -2,15 +2,24 @@ import React, { useContext } from "react";
 import "./Products.css";
 // import { CartContext } from "../../context/cartContext";
 import ChooseItem from "../../ChooseItem/ChooseItem"
-const Product = ({ data, item, index, setItem }) => {
+const Product = ({ setAdd, data, item, index, setItem }) => {
   //let { item } = props;
   //console.log(data)
+  let list = [{}];
   function selectProduct() {
     const newItem = data[index];
     console.log("hi")
-    console.log(newItem)
+    // console.log(newItem)
     setItem(newItem)
     //setIndex(index)
+  }
+  function addToCart() {
+    //list = [...list]
+    list.push(data[index])
+    // console.log(list)
+    setAdd(list)
+
+
   }
   //let [cartItem, setCartItem] = React.useContext(CartContext);
   return (
@@ -28,7 +37,7 @@ const Product = ({ data, item, index, setItem }) => {
           ) : null}
           <span className="b-discount">{item.discountDisplayLabel}</span>
         </h5>
-        <button className="add-to-cart-btn">
+        <button className="add-to-cart-btn" onClick={addToCart}>
           Add to Cart
         </button>
       </div>
